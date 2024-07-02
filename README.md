@@ -3,7 +3,7 @@
 
 1. [Create a new Google Sheet](https://docs.google.com/spreadsheets/create) with the column names: "Identifier", "Published", "Updated", and "Title". 
 
-2. Note down the ID of your spreadsheet from the page URL. If the URL has the form ``https://docs.google.com/spreadsheets/d/THIS-IS-YOUR-SHEET-ID/edit?gid=0#gid=0` then the text where `THIS-IS-YOUR-SHEET-ID` is in the template, is your spreadsheet ID.
+2. Note down the ID of your spreadsheet from the page URL. If the URL has the format `https://docs.google.com/spreadsheets/d/THIS-IS-YOUR-SHEET-ID/edit?gid=0#gid=0` then the text where `THIS-IS-YOUR-SHEET-ID` is in the template, is your spreadsheet ID.
 
 2. Create a new Google Slides deck. Format the first slide to your liking. This will be the "template" slide. Set the slide to 'skipped' mode so it doesn't appear in presentation mode. You can use the following strings as variables, which will be over-written by the script when it creates new slides:
   - `{{Title}}` for the pre-print title
